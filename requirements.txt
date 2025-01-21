@@ -1,0 +1,53 @@
+# Core Framework
+fastapi==0.100.0               # FastAPI for backend APIs
+uvicorn==0.23.0                # ASGI server to run FastAPI
+
+# Data Processing
+pandas==2.1.0                  # Data manipulation and analysis
+numpy==1.24.0                  # Numerical computing
+scikit-learn==1.2.2            # Machine learning algorithms
+
+# Time-Series Analysis
+prophet==1.1.2                 # Time-series forecasting
+statsmodels==0.13.5            # Statistical modeling and testing
+
+# Machine Learning
+transformers==4.34.0           # Hugging Face for LLMs
+torch==2.0.1                   # PyTorch for deep learning
+stable-baselines3==1.8.0       # Reinforcement learning framework
+
+# Natural Language Processing
+nltk==3.8.1                    # Natural language toolkit
+spacy==3.5.1                   # NLP for tokenization and preprocessing
+finbert-embedding==0.2.0       # Financial sentiment analysis with FinBERT
+
+# API Integrations
+requests==2.31.0               # HTTP requests for APIs
+ccxt==3.1.49                   # Crypto exchange integration
+yfinance==0.2.20               # Yahoo Finance API
+forex-python==1.8.0            # Forex data API
+
+# Databases
+sqlalchemy==2.0.16             # ORM for database management
+databases==0.5.8               # Async database support
+psycopg2-binary==2.9.7         # PostgreSQL driver
+redis==5.3.0                   # Redis for caching
+
+# Time-Series Database
+influxdb-client==1.36.0        # InfluxDB client for time-series data
+
+# File Handling
+python-multipart==0.0.6        # Handle file uploads
+
+# Data Visualization
+matplotlib==3.7.1              # Plotting library
+seaborn==0.12.2                # Statistical data visualization
+
+# Deployment
+gunicorn==20.1.0               # WSGI server for deployment
+python-dotenv==1.0.0           # Environment variable management
+
+# Testing
+pytest==7.4.2                  # Testing framework
+pytest-asyncio==0.21.0         # Async testing for FastAPI
+httpx==0.25.0                  # HTTP client for tests
