@@ -1,4 +1,4 @@
-# Application Framework
+# AppFramework
 
 ## Overview
 **Application Framework** is a modular, scalable platform designed to support the development of full-stack applications. It serves as a foundation for building modern applications with a clear separation between backend and frontend components.
